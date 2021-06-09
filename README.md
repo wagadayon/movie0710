@@ -1,10 +1,10 @@
 ## users table
 
-| Column          | Type                | Options                 |
+| Column             | Type                | Options                 |
 |--------------------|---------------------|-------------------------|
-| email           | string              | null: false             |
+| email              | string              | null: false             |
 | password           | string              | null: false             |
-| name           | string              | null: false             |
+| name               | string              | null: false             |
 | profile            | text                | null: false             |
 | occupation         | text                | null: false             |
 | position           | text                | null: false             |
@@ -18,7 +18,7 @@
 
 | Column      | Type       | Options           |
 |-------------|------------|-------------------|
-| text       | text       | null: false       |
+| text        | text       | null: false       |
 | user        | references | foreign_key: true |
 
 ### Association
